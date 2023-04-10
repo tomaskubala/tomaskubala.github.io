@@ -1,0 +1,63 @@
+body {
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 18vh 1rem;
+}
+
+.title-margin {
+  margin-top: .25em;
+  margin-bottom: 0em;
+}
+
+.section-break {
+  margin-bottom: 1.5em;
+}
+
+p {
+  line-height: 1.75em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: blue;
+  }
+}
+
+.middleman-logo {
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+.panel {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5em;
+}
